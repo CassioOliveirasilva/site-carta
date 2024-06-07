@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #ead2d2;
+    color: #e66076;
+}
+header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+
+.cabecalho  {
+    background-color: #e66076;
+    padding: 2% 2% 2% 15%; 
+}
+
+.cabecalho_menu {
+    display: flex;
+   gap: 20px;
+   
+}
+.cabecalho_links {
+    color:#c6c0c0;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.apresencao {
+    display: flex;
+   justify-content: center;
+      
+}
+.apresentacao_conteudo {
+    position: relative;
+    top: 50px;
+}
+.apresentacao_introducao {
+    display: flex;
+    gap: 80px;
+    padding: 8%;
+    align-items: center;   
+}
+.apresentaçao_introducao_p {
+    
+    font-family: "Dancing Script";
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.apresentacao_titulo {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+    
+}
+
+.apresentacao_texto {
+    display: flex;
+    padding: 0 10% 0 10%;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Comic Neue';
+    font-weight: 600;
+}
+
+.apresencao_fotos {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.rodape {
+    background-color: #e66076;
+    color:#ead2d2;
+    font-size: 24px;
+    padding: 26px;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
